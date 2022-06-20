@@ -82,3 +82,19 @@ input {
   justify-content: center;
   align-items: center;
 }
+
+.userList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.userList img {
+  margin: 25px;
+  border-radius: 50%;
+}
+.userList p {
+  margin: 0px;
+  font-size: 18px;
+}
